@@ -46,14 +46,24 @@ $apple -> set_color("The color of my apple is red");
 
 
 echo $banana -> get_name();
+
+//Get property without using the method
+echo $banana -> name;
 echo "<br />";
 echo $banana -> get_color();
+//Get property without using the method
+echo $banana -> color;
 
 echo "<br>";
 echo "<br>";
 echo $apple -> get_name();
+
+//Get property without using the method
+echo $apple -> name;
 echo "<br>";
 echo $apple -> get_color();
+//Get property without using the method
+echo $apple -> color;
 
 echo "<br />";
 echo"<br>";
